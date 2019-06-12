@@ -73,7 +73,7 @@ public class OptionMenu extends Account {
                     System.out.println("Do you want to quit?");
                     Scanner scan = new Scanner(System.in);
                     choice = scan.nextLine();
-                    System.out.println();
+                    System.exit(0);
                     break;
 
                 default:

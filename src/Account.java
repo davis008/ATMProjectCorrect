@@ -59,7 +59,7 @@ public class Account {
     /* Customer Saving Account Withdraw input */
 
     public void getSavingWithdrawInput() {
-        for(count=0;count<4;count++) {
+        //for(count=0;count<4;count++) {
             System.out.println("Saving Account Balance: " + moneyFormat.format(Balance));
             System.out.print("Amount you want to withdraw from Saving Account: ");
             double amount = input.nextDouble();
@@ -69,7 +69,7 @@ public class Account {
             } else {
                 System.out.println("Balance cannot be Negative");
             }
-        }
+        //}
         }
 
     /* Customer Saving Account Deposit input */
